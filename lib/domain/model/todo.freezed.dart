@@ -128,7 +128,7 @@ class _$_Todo implements _Todo {
       {required this.id,
       required this.title,
       this.description,
-      this.completed = false});
+      required this.completed = false});
 
   factory _$_Todo.fromJson(Map<String, dynamic> json) => _$$_TodoFromJson(json);
 
